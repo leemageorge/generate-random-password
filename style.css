@@ -1,0 +1,62 @@
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #489fb5;
+    color:aliceblue
+}
+.container{
+   
+    margin:12%;
+    width:90%;
+    max-width:700px;
+}
+
+.input-field{
+    width:100%;
+    margin-top:50px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:26px 20px;
+    border-radius: 8px;
+  
+}
+.container h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+.container h1 span{
+    color:#1f0953;
+    border-bottom: 2px solid #1f0953;
+}
+.input-field img{
+    width:30px;
+    cursor: pointer;
+
+}
+
+.input-field input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    background: transparent;
+}
+button{
+    padding:10px 16px;
+    background-color: #1f0953;
+    color:aliceblue;
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    outline:none;
+    box-shadow: 2px 2px 2px 2px #26454d;
+    cursor:pointer;
+}
